@@ -1,0 +1,53 @@
+[
+    {
+      "id": "001",
+      "cover": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+      "title": "The Whispering Woods",
+      "author": "Emily Rivers",
+      "author-img": "https://images.unsplash.com/photo-1534528741775-53994a69daeb",
+      "posted-date": "2023-08-15",
+      "reading-time": 8,
+      "hashtag": ["#fiction", "#fantasy", "#mystery"]
+    },
+    {
+      "id": "002",
+      "cover": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+      "title": "Digital Dreams",
+      "author": "Marcus Stone",
+      "author-img": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe",
+      "posted-date": "2023-09-10",
+      "reading-time": 5,
+      "hashtag": ["#technology", "#innovation", "#future"]
+    },
+    {
+      "id": "003",
+      "cover": "https://images.unsplash.com/photo-1519638399535-1b036603ac77",
+      "title": "Beneath the Surface",
+      "author": "Olivia Clarke",
+      "author-img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+      "posted-date": "2023-07-22",
+      "reading-time": 7,
+      "hashtag": ["#thriller", "#suspense", "#drama"]
+    },
+    {
+      "id": "004",
+      "cover": "https://images.unsplash.com/photo-1508050919630-b135583b29d4",
+      "title": "Echoes of the Past",
+      "author": "Daniel Harper",
+      "author-img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+      "posted-date": "2023-06-30",
+      "reading-time": 6,
+      "hashtag": ["#history", "#adventure", "#journey"]
+    },
+    {
+      "id": "005",
+      "cover": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+      "title": "Chasing the Horizon",
+      "author": "Sophia Bennett",
+      "author-img": "https://images.unsplash.com/photo-1534528741775-53994a69daeb",
+      "posted-date": "2023-08-05",
+      "reading-time": 9,
+      "hashtag": ["#travel", "#exploration", "#wanderlust"]
+    }
+  ]
+  
