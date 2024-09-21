@@ -1,53 +1,55 @@
 [
-    {
-      "id": "001",
-      "cover": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
-      "title": "The Whispering Woods",
-      "author": "Emily Rivers",
-      "author-img": "https://images.unsplash.com/photo-1534528741775-53994a69daeb",
-      "posted-date": "2023-08-15",
-      "reading-time": 8,
-      "hashtag": ["#fiction", "#fantasy", "#mystery"]
-    },
-    {
-      "id": "002",
-      "cover": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
-      "title": "Digital Dreams",
-      "author": "Marcus Stone",
-      "author-img": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe",
-      "posted-date": "2023-09-10",
-      "reading-time": 5,
-      "hashtag": ["#technology", "#innovation", "#future"]
-    },
-    {
-      "id": "003",
-      "cover": "https://images.unsplash.com/photo-1519638399535-1b036603ac77",
-      "title": "Beneath the Surface",
-      "author": "Olivia Clarke",
-      "author-img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
-      "posted-date": "2023-07-22",
-      "reading-time": 7,
-      "hashtag": ["#thriller", "#suspense", "#drama"]
-    },
-    {
-      "id": "004",
-      "cover": "https://images.unsplash.com/photo-1508050919630-b135583b29d4",
-      "title": "Echoes of the Past",
-      "author": "Daniel Harper",
-      "author-img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
-      "posted-date": "2023-06-30",
-      "reading-time": 6,
-      "hashtag": ["#history", "#adventure", "#journey"]
-    },
-    {
-      "id": "005",
-      "cover": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
-      "title": "Chasing the Horizon",
-      "author": "Sophia Bennett",
-      "author-img": "https://images.unsplash.com/photo-1534528741775-53994a69daeb",
-      "posted-date": "2023-08-05",
-      "reading-time": 9,
-      "hashtag": ["#travel", "#exploration", "#wanderlust"]
-    }
-  ]
-  
+  {
+      "id": 1,
+      "cover": "https://i.ibb.co/84Zfw2n/1.jpg",
+      "title": "Top 10 ES6 Features You Must Know",
+      "author_img": "https://i.ibb.co/VvLNdLL/boy1.png",
+      "author": "Hamza Sohail",
+      "posted_date": "September 15, 2023",
+      "reading_time": 5,
+      "hashtags": [
+          "beginners",
+          "es6"
+      ]
+  },
+  {
+      "id": 2,
+      "cover": "https://i.ibb.co/6N2dgnZ/2.png",
+      "title": "JavaScript Objects for Absolute Beginners: A Fun Introduction",
+      "author_img": "https://i.ibb.co/7rFSJx5/girl1.jpg",
+      "author": "Sajal Ali",
+      "posted_date": "August 28, 2023",
+      "reading_time": 4,
+      "hashtags": [
+          "javascript",
+          "coding",
+          "dev"
+      ]
+  },
+  {
+      "id": 3,
+      "cover": "https://i.ibb.co/RzGzcPg/3.png",
+      "title": "Component lifecycle in React — Class component vs Functional component",
+      "author_img": "https://i.ibb.co/vwGwnhT/boy2.jpg",
+      "author": "Feroze Khan",
+      "posted_date": "July 10, 2023",
+      "reading_time": 10,
+      "hashtags": [
+          "mid_level",
+          "react"
+      ]
+  },
+  {
+      "id": 4,
+      "cover": "https://i.ibb.co/vvTfkcv/4.jpg",
+      "title": "Free images and resources collection for website",
+      "author_img": "https://i.ibb.co/Sn7zB4q/girl2.jpg",
+      "author": "Anmol Baloch",
+      "posted_date": "June 5, 2023",
+      "reading_time": 9,
+      "hashtags": [
+          "development",
+          "resources"
+      ]
+  }
+]
