@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
-const Blog = ({ blog }) => {
-    const { title, cover, author_img, author, posted_date, reading_time, hashtags } = blog;
+import { FaBookmark } from 'react-icons/fa';
+const Blog = ({ blog, handleAddToButton, handleReadingTime }) => {
+    const {id, title, cover, author_img, author, posted_date, reading_time, hashtags } = blog;
     return (
         <div className='my-9'>
-            <img className='w-full' src={cover} alt={`Cover image of ${title}`} />
+            <img className='w-full rounded-3xl' src={cover} alt={`Cover image of ${title}`} />
             <div className='flex flex-col gap-5 mt-8'>
                 <div className='flex justify-between'>
                     <div className='flex'>
@@ -15,7 +16,8 @@ const Blog = ({ blog }) => {
                         </div>
                     </div>
                     <div>
-                        <span>{reading_time} min read</span>
+                        <span>{reading_time} min read</span>     
+                <button onClick={() => handleAddToButton(blog)} className=' bg-gray-200 p-2 rounded-lg ml-2 text-2xl text-red-600 hover:bg-blue-500 hover:border-b-black'><FaBookmark /></button>
                     </div>
                 </div>
                 <h1 className='text-4xl'>{title}</h1>
@@ -24,14 +26,16 @@ const Blog = ({ blog }) => {
                         hashtags.map((hash, idx) => <span key={idx}><a className='text-blue-500 hover:text-black' href="">#{hash}</a>&nbsp;&nbsp;&nbsp;</span>)
                     }
                 </p>
-                <button className='text-black bg-gray-200 p-2 rounded-lg w-[110px] hover:bg-blue-500 hover:border-b-black'>Mark as read</button>
+                <a onClick={() => handleReadingTime(reading_time,id)} className='text-[#6047EC] text-2xl hover:text-[26px] cursor-pointer w-40 underline'>Mark as read</a>
             </div>
         </div>
     );
 };
 
 Blog.propTypes = {
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handleAddToButton: PropTypes.func.isRequired,
+    handleReadingTime: PropTypes.func.isRequired,
 }
 
 export default Blog;
